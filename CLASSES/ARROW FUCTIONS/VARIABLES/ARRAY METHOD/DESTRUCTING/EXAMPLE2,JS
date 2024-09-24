@@ -1,0 +1,8 @@
+const colors = ['red', undefined, 'blue'];
+
+// Assign default value if the second element is undefined
+const [firstColor, secondColor = 'green', thirdColor] = colors;
+
+console.log(firstColor);  // red
+console.log(secondColor); // green
+console.log(thirdColor);  // blue
